@@ -1,0 +1,77 @@
+body {
+background: black; 
+font-family: 'Gothic A1', sans-serif;
+color: white;
+}
+
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: #f498b8;
+}
+
+.blurb h2 {
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #E28D1E;
+}
+
+.blurb p{
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.navmklogo {
+    height: 2.5rem;
+    width: 2.5rem;
+
+}
+
+#mainNavbar {
+    font-size: 1.5rem; 
+    font-weight: 100;
+    color: white;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+    opacity: 1.5;
+}
+
+#mainNavbar .nav-link:hover {
+    color: white;
+    opacity: 0.5;
+}
+
+#mainNavbar .navbar-brand {
+    color: #E28D1E;
+    font-size: 1.5rem; 
+    font-weight: 100;
+}
+
+#headingGroup Span {
+    color: #E28D1E;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 2.5rem;
+
+}
+
+
+.navbar.scrolled {
+    background:  rgba(107, 100, 94, 0.5);
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 1.5rem;
+}
+
+
+
